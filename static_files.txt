@@ -1,0 +1,8 @@
+1. install WhiteNoise package, since django does not support serving static files in production itself
+2. pip install whitenoise==6.0.0
+3. add whitenoise to requirements.txt
+4. add whitenoise to installed_apps, above django's staticfiles app
+5. add whitenoise to middleware settings.py
+6. add 3 static vars of whitenoise to settings.py
+7. run collectstatic command to compile all static files
+8. python manage.py collectstatic

@@ -1,0 +1,2 @@
+django + postgresql + nginx + gunicorn/uWSGI - on ubuntu
+(gunicorn is simpler)
